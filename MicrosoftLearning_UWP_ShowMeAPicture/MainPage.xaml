@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="MicrosoftLearning_UWP_ShowMeAPicture.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MicrosoftLearning_UWP_ShowMeAPicture"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image x:Name="foundObjectImage" HorizontalAlignment="Left" Height="489" Margin="308,53,0,0" VerticalAlignment="Top" Width="639"/>
+        <TextBox x:Name="txtSuche" HorizontalAlignment="Left" Height="42" Margin="308,582,0,0" Text="" PlaceholderText="Bitte Suchbegriff eingeben" TextWrapping="Wrap" VerticalAlignment="Top" Width="607" KeyDown="txtSuche_KeyDown"/>
+
+    </Grid>
+</Page>

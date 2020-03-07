@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="MicrosoftLearning_UWP_SayHello.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MicrosoftLearning_UWP_SayHello"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="cmdSayHello" Content="Say Hello" Margin="198,495,0,0" VerticalAlignment="Top" Height="68" Width="230" Click="cmdSayHello_Click"/>
+        <TextBox x:Name="txtHello" HorizontalAlignment="Left" Margin="389,292,0,0" Text="Hallo Konrad :-)" TextWrapping="Wrap" VerticalAlignment="Top" Height="80" Width="358" FontSize="36" TextAlignment="Center" BorderThickness="1,1,8,8"/>
+
+    </Grid>
+</Page>
